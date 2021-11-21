@@ -1,0 +1,11 @@
+name: Form Options Attributes
+type: module
+description: 'Allows form options for select, checkboxes, and radio elements to have individual attributes.'
+core: 8.x
+core_version_requirement: ^8 || ^9
+package : Field types
+
+# Information added by Drupal.org packaging script on 2020-06-01
+version: '8.x-1.2'
+project: 'form_options_attributes'
+datestamp: 1591035325
