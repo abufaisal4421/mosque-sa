@@ -4,7 +4,7 @@ description: 'Support module for image loading attribute tests.'
 package: Testing
 # version: VERSION
 
-# Information added by Drupal.org packaging script on 2021-11-03
-version: '9.2.8'
+# Information added by Drupal.org packaging script on 2021-11-17
+version: '9.2.9'
 project: 'drupal'
-datestamp: 1635961278
+datestamp: 1637185016

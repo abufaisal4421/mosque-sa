@@ -7,7 +7,7 @@ dependencies:
   - drupal:config_translation
   - drupal:config_test
 
-# Information added by Drupal.org packaging script on 2021-11-03
-version: '9.2.8'
+# Information added by Drupal.org packaging script on 2021-11-17
+version: '9.2.9'
 project: 'drupal'
-datestamp: 1635961278
+datestamp: 1637185016
