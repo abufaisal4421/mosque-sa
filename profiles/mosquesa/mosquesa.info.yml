@@ -39,7 +39,13 @@ install:
   - views_ui
   - tour
   - automated_cron
+  - admin_toolbar
+  - admin_toolbar:admin_toolbar_tools
+  - captcha
+  - image_captcha
+
 themes:
+  - bootstrap_barrio
   - bartik
   - seven
 
