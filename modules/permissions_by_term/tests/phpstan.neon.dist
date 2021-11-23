@@ -1,0 +1,9 @@
+includes:
+  - phpstan-baseline.neon
+parameters:
+  level: 0
+  paths:
+    - web/modules/permissions_by_term
+  excludes_analyse:
+    - tests/*.php
+    - src/Commands/*.php

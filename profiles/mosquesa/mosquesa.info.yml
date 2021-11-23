@@ -44,6 +44,8 @@ install:
   - admin_toolbar:admin_toolbar_tools
   - captcha
   - image_captcha
+  - permissions_by_term
+  - unique_field_ajax
 
 themes:
   - bootstrap_barrio

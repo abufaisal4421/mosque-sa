@@ -1,0 +1,72 @@
+parameters:
+	ignoreErrors:
+		-
+			message: "#^Unsafe usage of new static\\(\\)\\.$#"
+			count: 1
+			path: web/modules/permissions_by_term/src/Controller/NodeEntityBundleController.php
+
+		-
+			message: "#^\\\\Drupal calls should be avoided in classes, use dependency injection instead$#"
+			count: 2
+			path: web/modules/permissions_by_term/src/Controller/NodeEntityBundleController.php
+
+		-
+			message: "#^\\\\Drupal calls should be avoided in classes, use dependency injection instead$#"
+			count: 2
+			path: web/modules/permissions_by_term/src/Controller/PermissionsByTermController.php
+
+		-
+			message: "#^\\\\Drupal calls should be avoided in classes, use dependency injection instead$#"
+			count: 1
+			path: web/modules/permissions_by_term/src/Factory/NodeAccessRecordFactory.php
+
+		-
+			message: "#^\\\\Drupal calls should be avoided in classes, use dependency injection instead$#"
+			count: 8
+			path: web/modules/permissions_by_term/src/Form/SettingsForm.php
+
+		-
+			message: "#^\\\\Drupal calls should be avoided in classes, use dependency injection instead$#"
+			count: 8
+			path: web/modules/permissions_by_term/src/Listener/KernelEventListener.php
+
+		-
+			message: "#^\\\\Drupal calls should be avoided in classes, use dependency injection instead$#"
+			count: 8
+			path: web/modules/permissions_by_term/src/Service/AccessCheck.php
+
+		-
+			message: "#^\\\\Drupal calls should be avoided in classes, use dependency injection instead$#"
+			count: 6
+			path: web/modules/permissions_by_term/src/Service/AccessStorage.php
+
+		-
+			message: "#^Access to an undefined property Drupal\\\\permissions_by_term\\\\Service\\\\NodeAccess\\:\\:\\$nodeAccessRecordFactory\\.$#"
+			count: 2
+			path: web/modules/permissions_by_term/src/Service/NodeAccess.php
+
+		-
+			message: "#^Access to an undefined property Drupal\\\\permissions_by_term\\\\Service\\\\NodeAccess\\:\\:\\$grants\\.$#"
+			count: 1
+			path: web/modules/permissions_by_term/src/Service/NodeAccess.php
+
+		-
+			message: "#^\\\\Drupal calls should be avoided in classes, use dependency injection instead$#"
+			count: 1
+			path: web/modules/permissions_by_term/src/Service/NodeAccess.php
+
+		-
+			message: "#^\\\\Drupal calls should be avoided in classes, use dependency injection instead$#"
+			count: 11
+			path: web/modules/permissions_by_term/tests/src/Behat/Context/permissions_by_term.behat.inc
+
+		-
+			message: "#^Instantiated class Drupal\\\\Tests\\\\permissions_by_term\\\\Behat\\\\PermissionsByTermDrupalSubContext\\\\ResponseTextException not found\\.$#"
+			count: 2
+			path: web/modules/permissions_by_term/tests/src/Behat/Context/permissions_by_term.behat.inc
+
+		-
+			message: "#^Caught class Drupal\\\\Tests\\\\permissions_by_term\\\\Behat\\\\PermissionsByTermDrupalSubContext\\\\StaleElementReference not found\\.$#"
+			count: 1
+			path: web/modules/permissions_by_term/tests/src/Behat/Context/permissions_by_term.behat.inc
+

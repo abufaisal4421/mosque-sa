@@ -1,0 +1,32 @@
+field.field.*.*.*.third_party.unique_field_ajax:
+  type: mapping
+  label: Unique field third party settings
+  mapping:
+    unique:
+      type: integer
+      label: 'Set if field is unique or not'
+    per_lang:
+      type: integer
+      label: 'Unique per language'
+    use_ajax:
+      type: integer
+      label: 'Use ajax'
+    message:
+      type: string
+      label: 'A custom error message'
+node.type.*.third_party.unique_field_ajax:
+  type: mapping
+  label: Unique field third party settings
+  mapping:
+    unique:
+      type: integer
+      label: 'Set if field is unique or not'
+    per_lang:
+      type: integer
+      label: 'Unique per language'
+    use_ajax:
+      type: integer
+      label: 'Use ajax'
+    message:
+      type: string
+      label: 'A custom error message'

@@ -1,0 +1,16 @@
+{
+    "name": "drupal/permissions-by-term",
+    "description": "Restricts access to nodes by taxonomy terms in relation to users and their roles.",
+    "type": "drupal-module",
+    "license": "GPL-2.0+",
+    "authors": [
+        {
+            "name": "Peter Majmesku",
+            "email": "majmesku@publicplan.de"
+        }
+    ],
+    "require": {
+        "drupal/core": "^9.0",
+        "php": ">=7.1.0"
+    }
+}

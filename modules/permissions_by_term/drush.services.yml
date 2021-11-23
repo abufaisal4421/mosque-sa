@@ -1,0 +1,12 @@
+services:
+  permissions_by_term.rebuild_commands:
+    class: \Drupal\permissions_by_term\Commands\PermissionsByTermRebuildCommands
+    arguments: ['@permissions_by_term.node_access']
+    tags:
+      - { name: drush.command }
+
+  permissions_by_term.create_fixture_nodes_for_testing_commands:
+    class: \Drupal\permissions_by_term\Commands\CreateFixtureNodesForTestingCommands
+    arguments: [ '@permissions_by_term.access_storage' ]
+    tags:
+      - { name: drush.command }
