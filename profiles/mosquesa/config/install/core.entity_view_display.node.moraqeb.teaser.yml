@@ -1,0 +1,28 @@
+langcode: ar
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.moraqeb.field_albryd_alalktrwny
+    - field.field.node.moraqeb.field_aljwal
+    - field.field.node.moraqeb.field_alsjl_almdny
+    - field.field.node.moraqeb.field_tarykh_alt_yyn
+    - node.type.moraqeb
+  module:
+    - user
+id: node.moraqeb.teaser
+targetEntityType: node
+bundle: moraqeb
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_albryd_alalktrwny: true
+  field_aljwal: true
+  field_alsjl_almdny: true
+  field_tarykh_alt_yyn: true
+  langcode: true

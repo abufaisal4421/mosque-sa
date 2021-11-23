@@ -1,0 +1,22 @@
+langcode: ar
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_raqm_adad_almaa
+    - node.type.mosques
+id: node.mosques.field_raqm_adad_almaa
+field_name: field_raqm_adad_almaa
+entity_type: node
+bundle: mosques
+label: 'رقم عداد المياة'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

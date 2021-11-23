@@ -1,0 +1,28 @@
+langcode: ar
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_khadem_almsjd
+    - node.type.alkhadem
+    - node.type.mosques
+id: node.mosques.field_khadem_almsjd
+field_name: field_khadem_almsjd
+entity_type: node
+bundle: mosques
+label: 'خادم المسجد'
+description: 'ابحث عن الخادم واضافته من هنا'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      alkhadem: alkhadem
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,23 @@
+langcode: ar
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tarykh_alt_yyn
+    - node.type.imam_kateeb
+  module:
+    - datetime
+id: node.imam_kateeb.field_tarykh_alt_yyn
+field_name: field_tarykh_alt_yyn
+entity_type: node
+bundle: imam_kateeb
+label: 'تاريخ التعيين'
+description: ''
+required: true
+translatable: true
+default_value:
+  -
+    default_date_type: now
+    default_date: now
+default_value_callback: ''
+settings: {  }
+field_type: datetime

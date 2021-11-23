@@ -1,0 +1,56 @@
+langcode: ar
+status: true
+dependencies:
+  config:
+    - field.field.node.moraqeb.field_albryd_alalktrwny
+    - field.field.node.moraqeb.field_aljwal
+    - field.field.node.moraqeb.field_alsjl_almdny
+    - field.field.node.moraqeb.field_tarykh_alt_yyn
+    - node.type.moraqeb
+  module:
+    - datetime
+    - user
+id: node.moraqeb.default
+targetEntityType: node
+bundle: moraqeb
+mode: default
+content:
+  field_albryd_alalktrwny:
+    weight: 101
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_aljwal:
+    weight: 102
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_alsjl_almdny:
+    weight: 103
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_tarykh_alt_yyn:
+    weight: 104
+    label: above
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

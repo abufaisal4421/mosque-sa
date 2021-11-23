@@ -1,0 +1,7 @@
+langcode: ar
+status: true
+dependencies: {  }
+name: المدينة/المحافظة/الحي
+vid: almdynt_almhafzt_alhy
+description: ''
+weight: 0

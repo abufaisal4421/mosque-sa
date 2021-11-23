@@ -1,0 +1,7 @@
+langcode: ar
+status: true
+dependencies: {  }
+name: 'نوع المسجد'
+vid: nw_almsjd
+description: ''
+weight: 0

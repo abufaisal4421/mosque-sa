@@ -1,0 +1,64 @@
+langcode: ar
+status: true
+dependencies:
+  config:
+    - field.field.node.alkhadem.field_albryd_alalktrwny
+    - field.field.node.alkhadem.field_alhalt_alwzyfyt
+    - field.field.node.alkhadem.field_aljwal
+    - field.field.node.alkhadem.field_jht_al_ml
+    - field.field.node.alkhadem.field_tarykh_alt_yyn
+    - node.type.alkhadem
+  module:
+    - datetime
+    - user
+id: node.alkhadem.default
+targetEntityType: node
+bundle: alkhadem
+mode: default
+content:
+  field_albryd_alalktrwny:
+    weight: 101
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_alhalt_alwzyfyt:
+    weight: 103
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_aljwal:
+    weight: 102
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_jht_al_ml:
+    weight: 105
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_tarykh_alt_yyn:
+    weight: 104
+    label: above
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

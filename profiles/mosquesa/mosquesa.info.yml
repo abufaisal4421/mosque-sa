@@ -28,6 +28,7 @@ install:
   - dynamic_page_cache
   - big_pipe
   - taxonomy
+  - telephone  
   - dblog
   - search
   - shortcut

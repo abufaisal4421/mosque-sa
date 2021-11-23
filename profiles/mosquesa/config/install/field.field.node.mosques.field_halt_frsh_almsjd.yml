@@ -1,0 +1,22 @@
+langcode: ar
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_halt_frsh_almsjd
+    - node.type.mosques
+  module:
+    - options
+id: node.mosques.field_halt_frsh_almsjd
+field_name: field_halt_frsh_almsjd
+entity_type: node
+bundle: mosques
+label: 'حالة فرش المسجد'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: جيدة
+default_value_callback: ''
+settings: {  }
+field_type: list_string

@@ -1,0 +1,22 @@
+langcode: ar
+status: true
+dependencies:
+  config:
+    - field.storage.node.field__rd_almsjd_balmtr
+    - node.type.mosques
+id: node.mosques.field__rd_almsjd_balmtr
+field_name: field__rd_almsjd_balmtr
+entity_type: node
+bundle: mosques
+label: 'عرض المسجد بالمتر'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

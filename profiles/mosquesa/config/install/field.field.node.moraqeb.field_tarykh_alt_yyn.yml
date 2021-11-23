@@ -1,0 +1,23 @@
+langcode: ar
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tarykh_alt_yyn
+    - node.type.moraqeb
+  module:
+    - datetime
+id: node.moraqeb.field_tarykh_alt_yyn
+field_name: field_tarykh_alt_yyn
+entity_type: node
+bundle: moraqeb
+label: 'تاريخ التعيين'
+description: ''
+required: true
+translatable: true
+default_value:
+  -
+    default_date_type: now
+    default_date: now
+default_value_callback: ''
+settings: {  }
+field_type: datetime

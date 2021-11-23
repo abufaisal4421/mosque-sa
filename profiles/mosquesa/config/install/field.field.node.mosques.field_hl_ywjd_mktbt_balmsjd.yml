@@ -1,0 +1,22 @@
+langcode: ar
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_hl_ywjd_mktbt_balmsjd
+    - node.type.mosques
+  module:
+    - options
+id: node.mosques.field_hl_ywjd_mktbt_balmsjd
+field_name: field_hl_ywjd_mktbt_balmsjd
+entity_type: node
+bundle: mosques
+label: 'هل يوجد مكتبة بالمسجد'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: لا
+default_value_callback: ''
+settings: {  }
+field_type: list_string

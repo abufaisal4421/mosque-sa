@@ -1,0 +1,28 @@
+langcode: ar
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_alhalt_alwzyfyt
+    - node.type.moathen
+    - taxonomy.vocabulary.alhalt_alwzyfyt
+id: node.moathen.field_alhalt_alwzyfyt
+field_name: field_alhalt_alwzyfyt
+entity_type: node
+bundle: moathen
+label: 'الحالة الوظيفية'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      alhalt_alwzyfyt: alhalt_alwzyfyt
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

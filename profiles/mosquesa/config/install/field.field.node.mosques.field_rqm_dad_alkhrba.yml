@@ -1,0 +1,22 @@
+langcode: ar
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_rqm_dad_alkhrba
+    - node.type.mosques
+id: node.mosques.field_rqm_dad_alkhrba
+field_name: field_rqm_dad_alkhrba
+entity_type: node
+bundle: mosques
+label: 'رقم عداد الكهرباء'
+description: 'رقم العداد مكتوب على عداد الكهرباء-ممكن سؤال الإمام عن هذه المعلومة'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

@@ -1,0 +1,34 @@
+langcode: ar
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.imam.field_albryd_alalktrwny
+    - field.field.node.imam.field_alfyt_alwzyfyt
+    - field.field.node.imam.field_alhalt_alwzyfyt
+    - field.field.node.imam.field_aljwal
+    - field.field.node.imam.field_alsjl_almdny
+    - field.field.node.imam.field_jht_al_ml
+    - field.field.node.imam.field_tarykh_alt_yyn
+    - node.type.imam
+  module:
+    - user
+id: node.imam.teaser
+targetEntityType: node
+bundle: imam
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_albryd_alalktrwny: true
+  field_alfyt_alwzyfyt: true
+  field_alhalt_alwzyfyt: true
+  field_aljwal: true
+  field_alsjl_almdny: true
+  field_jht_al_ml: true
+  field_tarykh_alt_yyn: true
+  langcode: true

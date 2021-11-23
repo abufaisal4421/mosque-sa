@@ -1,0 +1,28 @@
+langcode: ar
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_amam_wkhtyb
+    - node.type.imam_kateeb
+    - node.type.mosques
+id: node.mosques.field_amam_wkhtyb
+field_name: field_amam_wkhtyb
+entity_type: node
+bundle: mosques
+label: 'إمام وخطيب'
+description: 'ابحث عن إمام وخطيب واضافته من هنا'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      imam_kateeb: imam_kateeb
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

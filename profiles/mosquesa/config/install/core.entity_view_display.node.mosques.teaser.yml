@@ -1,0 +1,76 @@
+langcode: ar
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.mosques.field__dd_almslyn
+    - field.field.node.mosques.field__dd_dwrat_almyat
+    - field.field.node.mosques.field__dd_mkyfat_alasblt
+    - field.field.node.mosques.field__dd_mkyfat_alshbak
+    - field.field.node.mosques.field__rd_almsjd_balmtr
+    - field.field.node.mosques.field_add_abwab_almsjed
+    - field.field.node.mosques.field_add_nawafeth
+    - field.field.node.mosques.field_alamam_
+    - field.field.node.mosques.field_almadinah
+    - field.field.node.mosques.field_almwdhn
+    - field.field.node.mosques.field_amaaam
+    - field.field.node.mosques.field_amam_wkhtyb
+    - field.field.node.mosques.field_dorat_miah_molhaq
+    - field.field.node.mosques.field_halt_almsjd_alanshayyt
+    - field.field.node.mosques.field_halt_frsh_almsjd
+    - field.field.node.mosques.field_hl_ywjd_lwht_lasm_almsjd
+    - field.field.node.mosques.field_hl_ywjd_mktbt_balmsjd
+    - field.field.node.mosques.field_hl_ywjd_mnbr
+    - field.field.node.mosques.field_hl_ywjd_msly_nsa
+    - field.field.node.mosques.field_hl_ywjd_mstwd_
+    - field.field.node.mosques.field_khadem_almsjd
+    - field.field.node.mosques.field_mraqb_almsjd
+    - field.field.node.mosques.field_nw_almsjd
+    - field.field.node.mosques.field_raqm_adad_almaa
+    - field.field.node.mosques.field_rqm_dad_alkhrba
+    - field.field.node.mosques.field_rqm_kwd_almsjd
+    - field.field.node.mosques.field_skn_imam
+    - field.field.node.mosques.field_twl_almsjd_balmtr
+    - node.type.mosques
+  module:
+    - user
+id: node.mosques.teaser
+targetEntityType: node
+bundle: mosques
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field__dd_almslyn: true
+  field__dd_dwrat_almyat: true
+  field__dd_mkyfat_alasblt: true
+  field__dd_mkyfat_alshbak: true
+  field__rd_almsjd_balmtr: true
+  field_add_abwab_almsjed: true
+  field_add_nawafeth: true
+  field_alamam_: true
+  field_almadinah: true
+  field_almwdhn: true
+  field_amaaam: true
+  field_amam_wkhtyb: true
+  field_dorat_miah_molhaq: true
+  field_halt_almsjd_alanshayyt: true
+  field_halt_frsh_almsjd: true
+  field_hl_ywjd_lwht_lasm_almsjd: true
+  field_hl_ywjd_mktbt_balmsjd: true
+  field_hl_ywjd_mnbr: true
+  field_hl_ywjd_msly_nsa: true
+  field_hl_ywjd_mstwd_: true
+  field_khadem_almsjd: true
+  field_mraqb_almsjd: true
+  field_nw_almsjd: true
+  field_raqm_adad_almaa: true
+  field_rqm_dad_alkhrba: true
+  field_rqm_kwd_almsjd: true
+  field_skn_imam: true
+  field_twl_almsjd_balmtr: true
+  langcode: true

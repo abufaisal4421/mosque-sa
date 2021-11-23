@@ -1,0 +1,7 @@
+langcode: ar
+status: true
+dependencies: {  }
+name: 'المؤهلات العلمية'
+vid: almwhlat_al_lmyt
+description: ''
+weight: 0

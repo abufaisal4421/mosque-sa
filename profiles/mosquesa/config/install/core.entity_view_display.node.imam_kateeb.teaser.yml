@@ -1,0 +1,32 @@
+langcode: ar
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.imam_kateeb.field_albryd_alalktrwny
+    - field.field.node.imam_kateeb.field_alfyt_alwzyfyt
+    - field.field.node.imam_kateeb.field_alhalt_alwzyfyt
+    - field.field.node.imam_kateeb.field_aljwal
+    - field.field.node.imam_kateeb.field_jht_al_ml
+    - field.field.node.imam_kateeb.field_tarykh_alt_yyn
+    - node.type.imam_kateeb
+  module:
+    - user
+id: node.imam_kateeb.teaser
+targetEntityType: node
+bundle: imam_kateeb
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_albryd_alalktrwny: true
+  field_alfyt_alwzyfyt: true
+  field_alhalt_alwzyfyt: true
+  field_aljwal: true
+  field_jht_al_ml: true
+  field_tarykh_alt_yyn: true
+  langcode: true

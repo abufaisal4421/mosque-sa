@@ -1,0 +1,274 @@
+langcode: ar
+status: true
+dependencies:
+  config:
+    - field.field.node.mosques.field__dd_almslyn
+    - field.field.node.mosques.field__dd_dwrat_almyat
+    - field.field.node.mosques.field__dd_mkyfat_alasblt
+    - field.field.node.mosques.field__dd_mkyfat_alshbak
+    - field.field.node.mosques.field__rd_almsjd_balmtr
+    - field.field.node.mosques.field_add_abwab_almsjed
+    - field.field.node.mosques.field_add_nawafeth
+    - field.field.node.mosques.field_alamam_
+    - field.field.node.mosques.field_almadinah
+    - field.field.node.mosques.field_almwdhn
+    - field.field.node.mosques.field_amaaam
+    - field.field.node.mosques.field_amam_wkhtyb
+    - field.field.node.mosques.field_dorat_miah_molhaq
+    - field.field.node.mosques.field_halt_almsjd_alanshayyt
+    - field.field.node.mosques.field_halt_frsh_almsjd
+    - field.field.node.mosques.field_hl_ywjd_lwht_lasm_almsjd
+    - field.field.node.mosques.field_hl_ywjd_mktbt_balmsjd
+    - field.field.node.mosques.field_hl_ywjd_mnbr
+    - field.field.node.mosques.field_hl_ywjd_msly_nsa
+    - field.field.node.mosques.field_hl_ywjd_mstwd_
+    - field.field.node.mosques.field_khadem_almsjd
+    - field.field.node.mosques.field_mraqb_almsjd
+    - field.field.node.mosques.field_nw_almsjd
+    - field.field.node.mosques.field_raqm_adad_almaa
+    - field.field.node.mosques.field_rqm_dad_alkhrba
+    - field.field.node.mosques.field_rqm_kwd_almsjd
+    - field.field.node.mosques.field_skn_imam
+    - field.field.node.mosques.field_twl_almsjd_balmtr
+    - node.type.mosques
+  module:
+    - options
+    - user
+id: node.mosques.default
+targetEntityType: node
+bundle: mosques
+mode: default
+content:
+  field__dd_almslyn:
+    weight: 109
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field__dd_dwrat_almyat:
+    weight: 111
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field__dd_mkyfat_alasblt:
+    weight: 112
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field__dd_mkyfat_alshbak:
+    weight: 113
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field__rd_almsjd_balmtr:
+    weight: 107
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_add_abwab_almsjed:
+    weight: 108
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_add_nawafeth:
+    weight: 110
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_alamam_:
+    weight: 123
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_almadinah:
+    weight: 122
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_almwdhn:
+    weight: 124
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_amaaam:
+    weight: 128
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_amam_wkhtyb:
+    weight: 125
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_dorat_miah_molhaq:
+    weight: 115
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_halt_almsjd_alanshayyt:
+    weight: 101
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_halt_frsh_almsjd:
+    weight: 102
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_hl_ywjd_lwht_lasm_almsjd:
+    weight: 117
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_hl_ywjd_mktbt_balmsjd:
+    weight: 120
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_hl_ywjd_mnbr:
+    weight: 121
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_hl_ywjd_msly_nsa:
+    weight: 119
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_hl_ywjd_mstwd_:
+    weight: 118
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_khadem_almsjd:
+    weight: 127
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_mraqb_almsjd:
+    weight: 126
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_nw_almsjd:
+    weight: 114
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_raqm_adad_almaa:
+    weight: 104
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_rqm_dad_alkhrba:
+    weight: 103
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_rqm_kwd_almsjd:
+    weight: 105
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_skn_imam:
+    weight: 116
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_twl_almsjd_balmtr:
+    weight: 106
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

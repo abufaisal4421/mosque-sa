@@ -1,0 +1,28 @@
+langcode: ar
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_alfyt_alwzyfyt
+    - node.type.imam
+    - taxonomy.vocabulary.alfiah
+id: node.imam.field_alfyt_alwzyfyt
+field_name: field_alfyt_alwzyfyt
+entity_type: node
+bundle: imam
+label: 'الفئة الوظيفية'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      alfiah: alfiah
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

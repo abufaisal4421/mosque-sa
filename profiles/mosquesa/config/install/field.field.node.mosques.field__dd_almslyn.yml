@@ -1,0 +1,22 @@
+langcode: ar
+status: true
+dependencies:
+  config:
+    - field.storage.node.field__dd_almslyn
+    - node.type.mosques
+id: node.mosques.field__dd_almslyn
+field_name: field__dd_almslyn
+entity_type: node
+bundle: mosques
+label: 'عدد المصلين'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

@@ -1,0 +1,20 @@
+langcode: ar
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_aljwal
+    - node.type.moathen
+  module:
+    - telephone
+id: node.moathen.field_aljwal
+field_name: field_aljwal
+entity_type: node
+bundle: moathen
+label: الجوال
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: telephone

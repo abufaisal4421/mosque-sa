@@ -1,0 +1,18 @@
+langcode: ar
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_albryd_alalktrwny
+    - node.type.imam_kateeb
+id: node.imam_kateeb.field_albryd_alalktrwny
+field_name: field_albryd_alalktrwny
+entity_type: node
+bundle: imam_kateeb
+label: 'البريد الإلكتروني'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

@@ -1,0 +1,28 @@
+langcode: ar
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_almadinah
+    - node.type.mosques
+    - taxonomy.vocabulary.almdynt_almhafzt_alhy
+id: node.mosques.field_almadinah
+field_name: field_almadinah
+entity_type: node
+bundle: mosques
+label: المدينة/المحافظة
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      almdynt_almhafzt_alhy: almdynt_almhafzt_alhy
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

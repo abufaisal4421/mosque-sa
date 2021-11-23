@@ -1,0 +1,22 @@
+langcode: ar
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_alsjl_almdny
+    - node.type.imam
+id: node.imam.field_alsjl_almdny
+field_name: field_alsjl_almdny
+entity_type: node
+bundle: imam
+label: 'السجل المدني'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

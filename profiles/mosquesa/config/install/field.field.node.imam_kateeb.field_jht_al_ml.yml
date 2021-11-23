@@ -1,0 +1,18 @@
+langcode: ar
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_jht_al_ml
+    - node.type.imam_kateeb
+id: node.imam_kateeb.field_jht_al_ml
+field_name: field_jht_al_ml
+entity_type: node
+bundle: imam_kateeb
+label: 'جهة العمل'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

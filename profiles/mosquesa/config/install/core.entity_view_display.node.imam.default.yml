@@ -1,0 +1,83 @@
+langcode: ar
+status: true
+dependencies:
+  config:
+    - field.field.node.imam.field_albryd_alalktrwny
+    - field.field.node.imam.field_alfyt_alwzyfyt
+    - field.field.node.imam.field_alhalt_alwzyfyt
+    - field.field.node.imam.field_aljwal
+    - field.field.node.imam.field_alsjl_almdny
+    - field.field.node.imam.field_jht_al_ml
+    - field.field.node.imam.field_tarykh_alt_yyn
+    - node.type.imam
+  module:
+    - datetime
+    - user
+id: node.imam.default
+targetEntityType: node
+bundle: imam
+mode: default
+content:
+  field_albryd_alalktrwny:
+    weight: 102
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_alfyt_alwzyfyt:
+    weight: 106
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_alhalt_alwzyfyt:
+    weight: 104
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_aljwal:
+    weight: 103
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_alsjl_almdny:
+    weight: 101
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_jht_al_ml:
+    weight: 105
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_tarykh_alt_yyn:
+    weight: 107
+    label: above
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

@@ -1,0 +1,22 @@
+langcode: ar
+status: true
+dependencies:
+  config:
+    - field.storage.node.field__dd_dwrat_almyat
+    - node.type.mosques
+id: node.mosques.field__dd_dwrat_almyat
+field_name: field__dd_dwrat_almyat
+entity_type: node
+bundle: mosques
+label: 'عدد دورات المياة'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer
