@@ -1,0 +1,17 @@
+langcode: ar
+status: true
+dependencies:
+  config:
+    - node.type.imam
+id: node.imam.title
+field_name: title
+entity_type: node
+bundle: imam
+label: 'اسم الإمام رباعي'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
