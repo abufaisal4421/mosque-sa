@@ -1,0 +1,28 @@
+langcode: ar
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_qsm_alkhbr
+    - node.type.news
+    - taxonomy.vocabulary.aqsam_alakhbar
+id: node.news.field_qsm_alkhbr
+field_name: field_qsm_alkhbr
+entity_type: node
+bundle: news
+label: 'قسم الخبر'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      aqsam_alakhbar: aqsam_alakhbar
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,7 @@
+langcode: ar
+status: true
+dependencies: {  }
+name: 'أقسام الأخبار'
+vid: aqsam_alakhbar
+description: ''
+weight: 0
