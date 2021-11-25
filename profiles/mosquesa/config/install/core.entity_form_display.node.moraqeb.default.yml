@@ -5,10 +5,13 @@ dependencies:
     - field.field.node.moraqeb.field_albryd_alalktrwny
     - field.field.node.moraqeb.field_aljwal
     - field.field.node.moraqeb.field_alsjl_almdny
+    - field.field.node.moraqeb.field_sorah_shakhsyiah
     - field.field.node.moraqeb.field_tarykh_alt_yyn
+    - image.style.thumbnail
     - node.type.moraqeb
   module:
     - datetime
+    - image
     - path
     - telephone
 id: node.moraqeb.default
@@ -43,6 +46,14 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: number
+    region: content
+  field_sorah_shakhsyiah:
+    weight: 125
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
     region: content
   field_tarykh_alt_yyn:
     weight: 124

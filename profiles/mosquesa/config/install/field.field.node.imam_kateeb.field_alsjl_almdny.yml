@@ -1,0 +1,30 @@
+langcode: ar
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_alsjl_almdny
+    - node.type.imam_kateeb
+  module:
+    - unique_field_ajax
+third_party_settings:
+  unique_field_ajax:
+    unique: 1
+    per_lang: 1
+    use_ajax: 1
+    message: 'فضلا هذا السجل المدني مكرر-نرجو مراجعة مدير النظام أو التأكد من صحة البيانات'
+id: node.imam_kateeb.field_alsjl_almdny
+field_name: field_alsjl_almdny
+entity_type: node
+bundle: imam_kateeb
+label: 'السجل المدني'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

@@ -12,7 +12,6 @@ dependencies:
     - field.field.node.mosques.field_alamam_
     - field.field.node.mosques.field_almadinah
     - field.field.node.mosques.field_almwdhn
-    - field.field.node.mosques.field_amaaam
     - field.field.node.mosques.field_amam_wkhtyb
     - field.field.node.mosques.field_dorat_miah_molhaq
     - field.field.node.mosques.field_halt_almsjd_alanshayyt
@@ -25,6 +24,7 @@ dependencies:
     - field.field.node.mosques.field_khadem_almsjd
     - field.field.node.mosques.field_mraqb_almsjd
     - field.field.node.mosques.field_nw_almsjd
+    - field.field.node.mosques.field_rabt_mwq_almsjd
     - field.field.node.mosques.field_raqm_adad_almaa
     - field.field.node.mosques.field_rqm_dad_alkhrba
     - field.field.node.mosques.field_rqm_kwd_almsjd
@@ -32,6 +32,7 @@ dependencies:
     - field.field.node.mosques.field_twl_almsjd_balmtr
     - node.type.mosques
   module:
+    - link
     - path
 id: node.mosques.default
 targetEntityType: node
@@ -113,16 +114,6 @@ content:
     weight: 11
     settings:
       match_operator: STARTS_WITH
-      match_limit: 10
-      size: 60
-      placeholder: ''
-    third_party_settings: {  }
-    type: entity_reference_autocomplete
-    region: content
-  field_amaaam:
-    weight: 9
-    settings:
-      match_operator: CONTAINS
       match_limit: 10
       size: 60
       placeholder: ''
@@ -212,6 +203,14 @@ content:
     settings: {  }
     third_party_settings: {  }
     type: options_select
+    region: content
+  field_rabt_mwq_almsjd:
+    weight: 36
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
     region: content
   field_raqm_adad_almaa:
     weight: 20

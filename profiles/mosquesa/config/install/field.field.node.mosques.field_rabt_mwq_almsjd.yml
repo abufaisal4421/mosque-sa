@@ -1,0 +1,22 @@
+langcode: ar
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_rabt_mwq_almsjd
+    - node.type.mosques
+  module:
+    - link
+id: node.mosques.field_rabt_mwq_almsjd
+field_name: field_rabt_mwq_almsjd
+entity_type: node
+bundle: mosques
+label: 'رابط موقع المسجد'
+description: 'قم بنسخ رابط خرائط جوجل ولصقه في هذا الحقل'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

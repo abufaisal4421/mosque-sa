@@ -5,11 +5,15 @@ dependencies:
     - field.field.node.alkhadem.field_albryd_alalktrwny
     - field.field.node.alkhadem.field_alhalt_alwzyfyt
     - field.field.node.alkhadem.field_aljwal
+    - field.field.node.alkhadem.field_alsjl_almdny
     - field.field.node.alkhadem.field_jht_al_ml
+    - field.field.node.alkhadem.field_sorah_shakhsyiah
     - field.field.node.alkhadem.field_tarykh_alt_yyn
+    - image.style.thumbnail
     - node.type.alkhadem
   module:
     - datetime
+    - image
     - path
     - telephone
 id: node.alkhadem.default
@@ -33,13 +37,9 @@ content:
     region: content
   field_alhalt_alwzyfyt:
     weight: 123
-    settings:
-      match_operator: CONTAINS
-      match_limit: 10
-      size: 60
-      placeholder: ''
+    settings: {  }
     third_party_settings: {  }
-    type: entity_reference_autocomplete
+    type: options_select
     region: content
   field_aljwal:
     weight: 122
@@ -48,6 +48,13 @@ content:
     third_party_settings: {  }
     type: telephone_default
     region: content
+  field_alsjl_almdny:
+    weight: 126
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
   field_jht_al_ml:
     weight: 125
     settings:
@@ -55,6 +62,14 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: string_textfield
+    region: content
+  field_sorah_shakhsyiah:
+    weight: 127
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
     region: content
   field_tarykh_alt_yyn:
     weight: 124

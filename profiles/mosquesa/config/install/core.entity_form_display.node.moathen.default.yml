@@ -8,10 +8,13 @@ dependencies:
     - field.field.node.moathen.field_aljwal
     - field.field.node.moathen.field_alsjl_almdny
     - field.field.node.moathen.field_jht_al_ml
+    - field.field.node.moathen.field_sorah_shakhsyiah
     - field.field.node.moathen.field_tarykh_alt_yyn
+    - image.style.thumbnail
     - node.type.moathen
   module:
     - datetime
+    - image
     - path
     - telephone
 id: node.moathen.default
@@ -66,6 +69,14 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: string_textfield
+    region: content
+  field_sorah_shakhsyiah:
+    weight: 128
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
     region: content
   field_tarykh_alt_yyn:
     weight: 127

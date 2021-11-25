@@ -6,11 +6,15 @@ dependencies:
     - field.field.node.imam_kateeb.field_alfyt_alwzyfyt
     - field.field.node.imam_kateeb.field_alhalt_alwzyfyt
     - field.field.node.imam_kateeb.field_aljwal
+    - field.field.node.imam_kateeb.field_alsjl_almdny
     - field.field.node.imam_kateeb.field_jht_al_ml
+    - field.field.node.imam_kateeb.field_sorah_shakhsyiah
     - field.field.node.imam_kateeb.field_tarykh_alt_yyn
+    - image.style.thumbnail
     - node.type.imam_kateeb
   module:
     - datetime
+    - image
     - path
     - telephone
 id: node.imam_kateeb.default
@@ -51,6 +55,13 @@ content:
     third_party_settings: {  }
     type: telephone_default
     region: content
+  field_alsjl_almdny:
+    weight: 127
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
   field_jht_al_ml:
     weight: 126
     settings:
@@ -58,6 +69,14 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: string_textfield
+    region: content
+  field_sorah_shakhsyiah:
+    weight: 128
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
     region: content
   field_tarykh_alt_yyn:
     weight: 125
