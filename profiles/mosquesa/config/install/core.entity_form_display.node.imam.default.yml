@@ -1,0 +1,95 @@
+langcode: ar
+status: true
+dependencies:
+  config:
+    - field.field.node.imam.field_albryd_alalktrwny
+    - field.field.node.imam.field_alfyt_alwzyfyt
+    - field.field.node.imam.field_alhalt_alwzyfyt
+    - field.field.node.imam.field_aljwal
+    - field.field.node.imam.field_alsjl_almdny
+    - field.field.node.imam.field_jht_al_ml
+    - field.field.node.imam.field_sorah_shakhsyiah
+    - field.field.node.imam.field_tarykh_alt_yyn
+    - image.style.thumbnail
+    - node.type.imam
+  module:
+    - datetime
+    - image
+    - telephone
+id: node.imam.default
+targetEntityType: node
+bundle: imam
+mode: default
+content:
+  field_albryd_alalktrwny:
+    weight: 3
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: email_default
+    region: content
+  field_alfyt_alwzyfyt:
+    weight: 6
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_alhalt_alwzyfyt:
+    weight: 4
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_aljwal:
+    weight: 2
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: telephone_default
+    region: content
+  field_alsjl_almdny:
+    weight: 1
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_jht_al_ml:
+    weight: 5
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_sorah_shakhsyiah:
+    weight: 8
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_tarykh_alt_yyn:
+    weight: 7
+    settings: {  }
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  langcode: true
+  path: true
+  promote: true
+  status: true
+  sticky: true
+  uid: true

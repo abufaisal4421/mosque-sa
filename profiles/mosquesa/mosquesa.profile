@@ -9,6 +9,33 @@ use Drupal\contact\Entity\ContactForm;
 use Drupal\Core\Form\FormStateInterface;
 
 /**
+ * Implements hook_install_tasks().
+ */
+function mosquesa_install_tasks(&$install_state) {
+  $tasks = [
+    // Install the demo content using YAML Content.
+    'mosquesa_install_content' => [
+      'display_name' => t('اضافة المحتوى'),
+      'type' => 'normal',
+    ],
+  ];
+
+  return $tasks;
+}
+
+/**
+ * Callback function to install demo content.
+ *
+ * @see mosquesa_install_tasks()
+ */
+function mosquesa_install_content() {
+  // Create default content.
+  $loader = \Drupal::service('yaml_content.load_helper');
+  $loader->importProfile('mosquesa');
+
+}
+
+/**
  * Implements hook_form_FORM_ID_alter() for install_configure_form().
  *
  * Allows the profile to alter the site configuration form.

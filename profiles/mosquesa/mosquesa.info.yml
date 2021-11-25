@@ -46,6 +46,7 @@ install:
   - image_captcha
   - permissions_by_term
   - unique_field_ajax
+  - yaml_content
 
 themes:
   - bootstrap_barrio

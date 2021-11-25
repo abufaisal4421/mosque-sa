@@ -1,0 +1,118 @@
+- entity: "taxonomy_term"
+  vid: "aqsam_alakhbar"
+  name: "أخبار الإدارة"
+- entity: "taxonomy_term"
+  vid: "aqsam_alakhbar"
+  name: "أخبار الوزارة"                     
+- entity: "taxonomy_term"
+  vid: "aqsam_alakhbar"
+  name: "أخبار عامة"       
+         
+- entity: "taxonomy_term"
+  vid: "alhalt_alwzyfyt"
+  name: "طالب"       
+  weight: 1    
+- entity: "taxonomy_term"
+  vid: "alhalt_alwzyfyt"
+  name: "موظف حكومي"   
+  weight: 2
+- entity: "taxonomy_term"
+  vid: "alhalt_alwzyfyt"
+  name: "موظف قطاع خاص"  
+  weight: 3 
+- entity: "taxonomy_term"
+  vid: "alhalt_alwzyfyt"
+  name: "متقاعد"   
+  weight: 4
+- entity: "taxonomy_term"
+  vid: "alhalt_alwzyfyt"
+  name: "غير ذلك"   
+  weight: 5
+
+- entity: "taxonomy_term"
+  vid: "alfiah"
+  name: "خادم مسجد'"   
+  weight: 1
+- entity: "taxonomy_term"
+  vid: "alfiah"
+  name: "خادم جامع'"   
+  weight: 2  
+- entity: "taxonomy_term"
+  vid: "alfiah"
+  name: "فئةأ"   
+  weight: 3 
+- entity: "taxonomy_term"
+  vid: "alfiah"
+  name: "فئة ب"   
+  weight: 4
+- entity: "taxonomy_term"
+  vid: "alfiah"
+  name: "فئة ج"   
+  weight: 5
+- entity: "taxonomy_term"
+  vid: "alfiah"
+  name: "مؤذن مسجد"   
+  weight: 6  
+- entity: "taxonomy_term"
+  vid: "alfiah"
+  name: "مؤذن جامع"   
+  weight: 7  
+
+- entity: "taxonomy_term"
+  vid: "almwhlat_al_lmyt"
+  name: "ثانوي"   
+  weight: 1  
+- entity: "taxonomy_term"
+  vid: "almwhlat_al_lmyt"
+  name: "دبلوم"   
+  weight: 2  
+- entity: "taxonomy_term"
+  vid: "almwhlat_al_lmyt"
+  name: "بكالريوس"   
+  weight: 3  
+- entity: "taxonomy_term"
+  vid: "almwhlat_al_lmyt"
+  name: "ماجستير"   
+  weight: 4  
+- entity: "taxonomy_term"
+  vid: "almwhlat_al_lmyt"
+  name: "دكتوراة"   
+  weight: 5  
+- entity: "taxonomy_term"
+  vid: "almwhlat_al_lmyt"
+  name: "غير ذلك"   
+  weight: 6  
+
+- entity: "taxonomy_term"
+  vid: "nw_almsjd"
+  name: "مسجد"   
+  weight: 1
+- entity: "taxonomy_term"
+  vid: "nw_almsjd"
+  name: "جامع"   
+  weight: 2
+- entity: "taxonomy_term"
+  vid: "nw_almsjd"
+  name: "مصلى عيد"   
+  weight: 3  
+
+- entity: "taxonomy_term"
+  vid: "almdynt_almhafzt_alhy"
+  name: "القريات"   
+  weight: 1  
+- entity: "taxonomy_term"
+  vid: "almdynt_almhafzt_alhy"
+  name: "دومة الجندل"   
+  weight: 2
+- entity: "taxonomy_term"
+  vid: "almdynt_almhafzt_alhy"
+  name: "سكاكا"   
+  weight: 3
+- entity: "taxonomy_term"
+  vid: "almdynt_almhafzt_alhy"
+  name: "صوير"   
+  weight: 4
+- entity: "taxonomy_term"
+  vid: "almdynt_almhafzt_alhy"
+  name: "طبرجل"   
+  weight: 5  
