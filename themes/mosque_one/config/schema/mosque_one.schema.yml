@@ -1,5 +1,5 @@
 # Schema for the configuration files of the Bootstrap Barrio Subtheme.
 
 mosque_one.settings:
-  type: mosque_one.settings
-  label: 'Bootstrap Barrio settings'
+  type: mosque_one_settings
+  label: 'اعدادات قالب ادارة المساجد'
