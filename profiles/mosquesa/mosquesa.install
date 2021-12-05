@@ -7,6 +7,7 @@
 
 use Drupal\user\Entity\User;
 use Drupal\shortcut\Entity\Shortcut;
+use Drupal\menu_link_content\Entity\MenuLinkContent;
 
 /**
  * Implements hook_install().
@@ -37,4 +38,76 @@ function mosquesa_install() {
     'link' => ['uri' => 'internal:/admin/content'],
   ]);
   $shortcut->save();
+
+    // Populate the main menu.
+    $linkrootemployees = MenuLinkContent::create(array(
+      'title' => t('اضافة موظف'),
+      'weight' => 10,
+      'enabled' => 1,
+      'link' => array('uri' => 'route:<nolink>'),
+      'menu_name' => 'main',
+
+    ));
+    $linkrootemployees->save();
+
+    $rootemployees = $linkrootemployees->getPluginId();
+    // Populate the main menu.
+    $linkimam = MenuLinkContent::create(array(
+      'title' => t('اضافة إمام'),
+      'weight' => 10,
+      'enabled' => 1,
+      'link' => array('uri' => 'internal:/node/add/imam'),
+      'menu_name' => 'main',
+      'parent' => $rootemployees,
+    ));
+    $linkimam->save();
+
+    // Populate the main menu.
+    $linkmoathen = MenuLinkContent::create(array(
+      'title' => t('اضافة مؤذن'),
+      'weight' => 10,
+      'enabled' => 1,
+      'link' => array('uri' => 'internal:/node/add/moathen'),
+      'menu_name' => 'main',
+      'parent' => $rootemployees,
+
+    ));
+    $linkmoathen->save();
+
+    // Populate the main menu.
+    $linkimam_kateeb = MenuLinkContent::create(array(
+      'title' => t('اضافة إمام وخطيب'),
+      'weight' => 10,
+      'enabled' => 1,
+      'link' => array('uri' => 'internal:/node/add/imam_kateeb'),
+      'menu_name' => 'main',
+      'parent' => $rootemployees,
+
+    ));
+    $linkimam_kateeb->save();
+
+    // Populate the main menu.
+    $linkimam_kateeb = MenuLinkContent::create(array(
+      'title' => t('اضافة مراقب'),
+      'weight' => 10,
+      'enabled' => 1,
+      'link' => array('uri' => 'internal:/node/add/moraqeb'),
+      'menu_name' => 'main',
+      'parent' => $rootemployees,
+
+    ));
+    $linkimam_kateeb->save();
+
+    // Populate the main menu.
+    $linkimam_kateeb = MenuLinkContent::create(array(
+      'title' => t('اضافة خادم'),
+      'weight' => 10,
+      'enabled' => 1,
+      'link' => array('uri' => 'internal:/node/add/alkhadem'),
+      'menu_name' => 'main',
+      'parent' => $rootemployees,
+
+    ));
+    $linkimam_kateeb->save();
+
 }
