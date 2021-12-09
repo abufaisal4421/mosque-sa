@@ -1,0 +1,10 @@
+name: 'Use render() and check its deprecation'
+type: module
+description: 'Use render() and check its deprecation.'
+package: Testing
+# version: VERSION
+
+# Information added by Drupal.org packaging script on 2021-12-09
+version: '9.3.0'
+project: 'drupal'
+datestamp: 1639051328

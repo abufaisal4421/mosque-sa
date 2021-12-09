@@ -1,11 +1,13 @@
 name: Testing
 type: module
-description: 'Deprecated. SimpleTest has been removed from core.'
+description: 'Obsolete. SimpleTest has been removed from core.'
+lifecycle: obsolete
+lifecycle_link: 'https://www.drupal.org/about/core/policies/core-change-policies/deprecated-and-obsolete-modules-and-themes#s-simpletest'
 package: Core
 # version: VERSION
 hidden: true
 
-# Information added by Drupal.org packaging script on 2021-11-24
-version: '9.2.10'
+# Information added by Drupal.org packaging script on 2021-12-09
+version: '9.3.0'
 project: 'drupal'
-datestamp: 1637765604
+datestamp: 1639051328

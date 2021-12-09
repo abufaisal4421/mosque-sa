@@ -18,7 +18,6 @@ install:
   - menu_link_content
   - datetime
   - block_content
-  - quickedit
   - editor
   - help
   - image
@@ -53,7 +52,7 @@ themes:
   - umami
 keep_english: true
 
-# Information added by Drupal.org packaging script on 2021-11-24
-version: '9.2.10'
+# Information added by Drupal.org packaging script on 2021-12-09
+version: '9.3.0'
 project: 'drupal'
-datestamp: 1637765604
+datestamp: 1639051328
