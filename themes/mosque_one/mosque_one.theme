@@ -32,3 +32,15 @@ function mosque_one_form_system_theme_settings_alter(&$form, FormStateInterface 
     'bg-transparent' => t('Transparent'),
   ];
 }
+
+function mosque_one_preprocess_html(&$variables) {
+  $language = Drupal::languageManager()->getCurrentLanguage();
+
+  if ($language->getDirection() == "rtl") {
+    //Comment because I loaded it by html.htmmosque_onel.twig
+     $variables['#attached']['library'][] = 'mosque_one/css_style_rtl';
+  } elseif ($language->getDirection() == "ltr" ) {
+    //Comment because I loaded it by html.html.twig
+    $variables['#attached']['library'][] = 'mosque_one/css_style_ltr';
+  }
+}

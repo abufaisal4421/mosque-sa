@@ -50,6 +50,7 @@ install:
 
 themes:
   - bootstrap_barrio
+  - mosque_one
   - bartik
   - seven
 
