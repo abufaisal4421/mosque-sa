@@ -1,0 +1,19 @@
+langcode: ar
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - mosque_one
+id: mosque_one_breadcrumbs
+theme: mosque_one
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

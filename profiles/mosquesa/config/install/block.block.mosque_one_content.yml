@@ -1,0 +1,19 @@
+langcode: ar
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - mosque_one
+id: mosque_one_content
+theme: mosque_one
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }
