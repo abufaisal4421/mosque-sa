@@ -523,7 +523,7 @@
                 "composer/semver": "^3.0",
                 "doctrine/annotations": "^1.12",
                 "doctrine/reflection": "^1.1",
-                "egulias/email-validator": "^2.1.22|^3.0",
+                "egulias/email-validator": "^2.1.22",
                 "ext-date": "*",
                 "ext-dom": "*",
                 "ext-filter": "*",
