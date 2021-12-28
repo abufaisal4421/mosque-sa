@@ -9,7 +9,7 @@ dependencies:
     - mosque_one
 id: mosque_one_account_menu
 theme: mosque_one
-region: secondary_menu
+region: footer_first
 weight: 0
 provider: null
 plugin: 'system_menu_block:account'

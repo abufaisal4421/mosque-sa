@@ -42,7 +42,7 @@ function mosquesa_install() {
     // Populate the main menu.
     $linkrootemployees = MenuLinkContent::create(array(
       'title' => t('اضافة موظف'),
-      'weight' => 10,
+      'weight' => 15,
       'enabled' => 1,
       'link' => array('uri' => 'route:<nolink>'),
       'menu_name' => 'main',

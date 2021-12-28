@@ -25,6 +25,23 @@ $info = [
     'default' => [
       'title' => t('Blue Lagoon (default)'),
       'colors' => [
+        'top' => '#ebebeb',
+        'bottom' => '#ebebeb',
+        'bg' => '#ffffff',
+        'sidebar' => '#f6f6f2',
+        'sidebarborders' => '#f9f9f9',
+        'footer' => '#2d4d3c',
+        'button' => '#007bff',
+        'buttonhover' => '#0256b1',
+        'titleslogan' => '#fffeff',
+        'text' => '#3b3b3b',
+        'link' => '#0071b3',
+      ],
+    ],
+   // Pre-defined color schemes.
+    'bluelagoon' => [
+      'title' => t('Blue Lagoon 1'),
+      'colors' => [
         'top' => '#055a8e',
         'bottom' => '#1d84c3',
         'bg' => '#ffffff',
@@ -37,7 +54,7 @@ $info = [
         'text' => '#3b3b3b',
         'link' => '#0071b3',
       ],
-    ],
+    ],    
     'firehouse' => [
       'title' => t('Firehouse'),
       'colors' => [
